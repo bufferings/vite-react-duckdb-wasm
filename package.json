@@ -1,0 +1,38 @@
+{
+  "name": "vite-react-duckdb-wasm",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@duckdb/duckdb-wasm": "1.29.0",
+    "@emotion/react": "11.13.3",
+    "@emotion/styled": "11.13.0",
+    "@mui/material": "6.1.7",
+    "apache-arrow": "18.0.0",
+    "duckdb-wasm-kit": "0.1.38",
+    "immutable": "^5.0.2",
+    "react": "18.3.1",
+    "react-async-hook": "4.0.0",
+    "react-dom": "18.3.1",
+    "react-spinners": "0.14.1",
+    "react-use": "17.5.1",
+    "react-virtuoso": "4.12.0",
+    "use-debounce": "10.0.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.3",
+    "globals": "15.12.0",
+    "typescript": "5.6.3",
+    "typescript-eslint": "8.14.0",
+    "vite": "5.4.11"
+  }
+}
