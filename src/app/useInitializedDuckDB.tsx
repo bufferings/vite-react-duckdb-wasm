@@ -1,7 +1,7 @@
 import { type AsyncDuckDB, insertFile, useDuckDb } from "duckdb-wasm-kit";
 import { useAsync } from "react-use";
 
-const DATA_CSV_FILE_PATH = "/temperature1118.csv";
+const DATA_CSV_FILE_PATH = `${import.meta.env.BASE_URL}/temperature1118.csv`;
 
 export declare type AsyncState<T> =
   | {
