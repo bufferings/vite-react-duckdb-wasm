@@ -76,7 +76,6 @@ interface MyResultTableProps {
 }
 
 function MyResultTable({ result }: MyResultTableProps) {
-  console.dir(result);
   if (!result) {
     return null;
   }
