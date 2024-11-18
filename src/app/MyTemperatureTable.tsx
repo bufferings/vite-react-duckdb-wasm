@@ -34,7 +34,7 @@ const columns: ColumnData[] = [
   },
   {
     width: 50,
-    label: "11月18日の最高気温(℃)",
+    label: "最高気温(℃)",
     dataKey: "18日の最高気温(℃)",
     numeric: true,
   },
